@@ -5,7 +5,7 @@
 ## 安装
 
 ```
-composer require yzh52521/webman-mailer
+composer require xgdd1988/webman-mailer
 ```
 
 ## 配置

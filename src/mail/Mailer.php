@@ -414,7 +414,7 @@ class Mailer implements MessageWrapperInterface
      * @param string|null $app
      * @return mixed
      */
-    private function template(string $template,array $vars = [],string $app = null)
+    private function template(string $template, array $vars = [], ?string $app = null)
     {
         $handler = \config( 'view.handler' );
         return $handler::render( $template,$vars,$app );
@@ -656,7 +656,7 @@ class Mailer implements MessageWrapperInterface
      * @return bool
      * @throws \Exception
      */
-    public function send(\Closure $message = null,array $transport = []): bool
+    public function send(?\Closure $message = null, array $transport = []): bool
     {
         try {
             // 匿名函数
