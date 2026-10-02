@@ -1,5 +1,5 @@
 {
-    "name": "yzh52521/webman-mailer",
+    "name": "xgdd1988/webman-mailer",
     "description": "A powerful and beautiful php mailer in webman Framework  PHP Frameworks based symfony mailer",
     "keywords": [
         "webman-mailer",
@@ -18,12 +18,12 @@
     ],
     "require": {
         "php": "^7.2 || ^8.0",
-        "symfony/mailer": "^5.4.5|^6.0|^8.0",
+        "symfony/mailer": "^5.4.5|^6.0|^8.1",
         "symfony/polyfill-php80": "^1.19",
         "ext-fileinfo": "*"
     },
     "require-dev": {
-        "workerman/webman-framework": "^1.2.1"
+        "workerman/webman-framework": "^2.2"
     },
     "autoload": {
         "psr-4": {
